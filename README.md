@@ -7,10 +7,12 @@ This is a reference (toy) implementation of a nested agent network with reinforc
 
 
 _Agent¹ examples_: Web search, Database analysis, custom agents...
+
 _Application² examples_: BabyAgi, AutoGPT, custom applications...
 
 
 ¹ Agents use a language model as a reasoning engine to determine which actions to take and in which order
+
 ² Applications are agents that have a custom prompt and output parser with a collection of child agents
 
 
