@@ -38,5 +38,5 @@ while True:
 
 Command line
 ```
-python3 router.py app=hearst_app agents=search,sqldb
+python3 router.py app=custom_app agents=search,sqldb
 ```
