@@ -4,6 +4,7 @@ import sys
 # this function parses the command line arguments into a dictionary
 def get_key_vals():
     key_vals = {}
+    for arg in sys.argv[1:]:
         key, val = arg.split('=')
         key_vals[key] = val
     return key_vals
